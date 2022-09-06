@@ -8,7 +8,7 @@ usethis::use_git_config(user.name = "Jinseob Kim", user.email = "jinseob2kim@gma
 ## setting: permanent storage
 credentials::credential_helper_set("manager")                 # Windows
 credentials::credential_helper_set("osxkeychain")             # Mac
-credentials::credential_helper_set("store")                   # Linux
+credentials::credential_helper_set("store")                   # RStudio Cloud
 
 ## create a personal access token for authentication:
 usethis::create_github_token() 
